@@ -1,0 +1,6 @@
+{
+    "board": "arduino:avr:uno",
+    "port": "COM3",
+    "programmer": "AVR ISP",
+    "sketch": "Codes\\Arduino-App-Integration-Code\\Arduino-App-Integration-Code.ino"
+}
