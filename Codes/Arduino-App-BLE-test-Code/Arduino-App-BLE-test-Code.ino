@@ -16,7 +16,6 @@ void loop()
   if (bluetooth.available())
     flag = bluetooth.read();
 
-    
   if (flag == 'w')
   {
     digitalWrite(led, HIGH);
@@ -32,4 +31,4 @@ void loop()
     digitalWrite(led, LOW);
     Serial.println("LED Off");
   }
-}
+}            
